@@ -25,7 +25,9 @@ export function ContactSection() {
                 <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-background text-primary">
                   <Phone className="h-5 w-5" />
                 </span>
-                +234 800 000 0000
+                <a href="tel:08135523875" className="transition-colors hover:text-primary">
+                  0813 552 3875
+                </a>
               </li>
               <li className="flex items-center gap-3 text-foreground">
                 <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-background text-primary">
