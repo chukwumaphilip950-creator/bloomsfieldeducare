@@ -19,7 +19,7 @@ export function ContactSection() {
                 <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-background text-primary">
                   <MapPin className="h-5 w-5" />
                 </span>
-                123 Learning Avenue, Bloomsfield
+                Bloomsfield Montessori Basic Schools, Jeun Madaki, Masaka, Nasarawa State
               </li>
               <li className="flex items-center gap-3 text-foreground">
                 <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-background text-primary">
