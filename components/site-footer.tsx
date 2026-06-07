@@ -12,9 +12,17 @@ export function SiteFooter() {
             Bloomsfield Montessori Basic Schools
           </span>
         </a>
-        <p className="text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Bloomsfield Montessori. All rights reserved.
-        </p>
+        <div className="flex flex-col items-center gap-1 sm:items-end">
+          <a
+            href="https://bloomsfieldeducare.com"
+            className="text-sm font-medium text-primary transition-colors hover:text-primary/80"
+          >
+            bloomsfieldeducare.com
+          </a>
+          <p className="text-sm text-muted-foreground">
+            &copy; {new Date().getFullYear()} Bloomsfield Montessori. All rights reserved.
+          </p>
+        </div>
       </div>
     </footer>
   )
