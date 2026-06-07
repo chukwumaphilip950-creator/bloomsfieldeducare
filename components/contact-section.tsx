@@ -33,7 +33,9 @@ export function ContactSection() {
                 <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-background text-primary">
                   <Mail className="h-5 w-5" />
                 </span>
-                admissions@bloomsfieldschools.com
+                <a href="mailto:bloomsfield2019@gmail.com" className="transition-colors hover:text-primary">
+                  bloomsfield2019@gmail.com
+                </a>
               </li>
             </ul>
           </div>
