@@ -1,17 +1,21 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Nunito, Fraunces } from 'next/font/google'
 import './globals.css'
 
-const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] })
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const nunito = Nunito({
+  variable: '--font-geist-sans',
+  subsets: ['latin'],
+})
+const fraunces = Fraunces({
+  variable: '--font-heading',
   subsets: ['latin'],
 })
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Bloomsfield Montessori Basic Schools',
+  description:
+    'Quality education in a safe, nurturing, and stimulating environment. Developing confident, creative, responsible, and lifelong learners through the Montessori approach.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -38,9 +42,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body className="font-sans antialiased">
-        {children}
+    <html lang="en" className={`${nunito.variable} ${fraunces.variable}`}>
+      <body className="font-sans antialiased bg-background">{children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
