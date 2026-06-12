@@ -38,8 +38,8 @@ export function HeroSection() {
         <div className="relative">
           <div className="overflow-hidden rounded-3xl border border-border shadow-xl">
             <Image
-              src="/hero-children-learning.png"
-              alt="Young children joyfully engaged in Montessori hands-on learning in a sunlit classroom"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-wqvVpwrSoO5HyhBg6wjyYd1RtFkLAw.jpg"
+              alt="Professional portrait of a character with black hair and red eyes wearing a black turtleneck"
               width={720}
               height={720}
               className="h-full w-full object-cover"
