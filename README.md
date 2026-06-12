@@ -1,4 +1,4 @@
-# v0-welcome-to-bloomsfield-montessori-basic-schools-at-bloomsfield-montessori-basic-schools-we-are-co
+# -welcome-to-bloomsfield-montessori-basic-schools
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
 
